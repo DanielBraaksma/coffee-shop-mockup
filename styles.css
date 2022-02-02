@@ -16,6 +16,8 @@ body {
     justify-content: space-between;
 }
 
+/* need to make the drop down nav element grow */
+
 nav {
     margin-bottom: 0;
     padding-bottom: 0;
