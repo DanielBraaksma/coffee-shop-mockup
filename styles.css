@@ -173,5 +173,21 @@ rect {
   }
 
 .countries {
-  margin: 10em 3em 12em 3em;
+  margin: 8em 3em 10em 3em;
+}
+
+.featured {
+  margin: 5em auto;
+  border: 1px solid grey;
+  width: 35%;
+  padding: 2em;
+  border-radius: 15px;
+  background-color: rgb(78, 98, 110);
+  color: #fff;
+
+}
+
+.featured-img {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
