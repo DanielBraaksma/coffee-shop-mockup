@@ -31,7 +31,7 @@ rect {
   }
 
   /* Declare heights because of positioning of img element */
-  .carousel-item {
+  /* .carousel-item {
     height: 32rem;
   }
   .carousel-item > img {
@@ -40,7 +40,7 @@ rect {
     left: 0;
     min-width: 100%;
     height: 32rem;
-  }
+  } */
 
 
   /* MARKETING CONTENT
@@ -103,7 +103,6 @@ rect {
 
 #custom-navbar {
     padding: 3em;
-    margin-bottom: 3em;
     position: absolute;
     width: 100%;
     z-index: 2;
@@ -134,13 +133,45 @@ rect {
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: 50%;
-
+  }
+.carouselimg-2{
+    width: 100%;
+    height: 100%;
+    background-image: url("images/kenya.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+  }
+.carouselimg-3{
+    width: 100%;
+    height: 100%;
+    background-image: url("images/costa-rica.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
   }
 
 
-  @media (max-width: 600px) {
-    .custom-navbar {
+  @media (max-width: 991px) {
+    #custom-navbar {
       padding: 2em;
+      background-color: rgba(0,0,0, .5);
     }
 
   }
+
+  @media (min-width: 992px) {
+      .carousel-inner .container {
+        position: relative;
+        left: 200px;
+      }
+  }
+
+
+  .collapse .navbar-collapse {
+    display: flex;
+  }
+
+.countries {
+  margin: 10em 3em 12em 3em;
+}
