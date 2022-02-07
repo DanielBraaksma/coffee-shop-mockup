@@ -59,15 +59,8 @@ rect {
     margin-right: .75rem;
     margin-left: .75rem;
   }
-  /* rtl:end:ignore */
 
 
-  /* Featurettes
-  ------------------------- */
-
-  .featurette-divider {
-    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
-  }
 
   /* Thin out the marketing headings */
   .featurette-heading {
@@ -90,15 +83,6 @@ rect {
       line-height: 1.4;
     }
 
-    .featurette-heading {
-      font-size: 50px;
-    }
-  }
-
-  @media (min-width: 62em) {
-    .featurette-heading {
-      margin-top: 7rem;
-    }
   }
 
 #custom-navbar {
@@ -213,4 +197,20 @@ rect {
   width: 75%;
   margin: 3em auto;
   border: solid 1px #5a5a5a86;
+}
+
+footer {
+  background-color: rgb(78, 98, 110);
+  opacity: 0.8;
+  height: 25vh;
+  margin-top: 150px;
+  color: #fff;
+}
+
+footer
+
+.bi {
+ font-size: 3rem;
+ color: #fff;
+ margin: .75rem;
 }
