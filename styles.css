@@ -214,3 +214,14 @@ footer
  color: #fff;
  margin: .75rem;
 }
+
+/**********Contact Page ***********/
+
+#custom-navbar-alt {
+  padding: 3em;
+    position: static;
+    width: 100%;
+    z-index: 2;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+}
