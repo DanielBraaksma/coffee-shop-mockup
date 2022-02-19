@@ -256,3 +256,8 @@ form button {
 .contact-info > * {
   margin-bottom: .75em;
 }
+
+.fa-phone,
+.fa-envelope {
+  margin-right: .5em;
+}
