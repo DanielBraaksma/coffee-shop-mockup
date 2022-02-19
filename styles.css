@@ -241,4 +241,12 @@ footer
 .contact-info {
   min-width: 325px;
   text-align: center;
+  font-size: 1.5rem;
+  padding: 2em;
+}
+
+.contact-info input,
+.contact-info label,
+.contact-info button  {
+  display: block;
 }
