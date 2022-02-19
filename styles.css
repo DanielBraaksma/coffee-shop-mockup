@@ -245,8 +245,14 @@ footer
   padding: 2em;
 }
 
-.contact-info input,
-.contact-info label,
-.contact-info button  {
-  display: block;
+form {
+  flex-direction: column;
+  padding: 2em;
+}
+
+form button {
+  margin-top: .75em;
+}
+.contact-info > * {
+  margin-bottom: .75em;
 }
