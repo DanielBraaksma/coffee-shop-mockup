@@ -223,7 +223,7 @@ footer
     width: 100%;
     z-index: 2;
     background-color: rgba(0,0,0,.5);
-    font
+
     color: #fff;
 }
 
@@ -236,4 +236,9 @@ footer
   font-size: 2rem;
   color: #fff;
   padding-left: 1em;
+}
+
+.contact-info {
+  min-width: 325px;
+  text-align: center;
 }
