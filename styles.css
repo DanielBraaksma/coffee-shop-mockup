@@ -223,5 +223,17 @@ footer
     width: 100%;
     z-index: 2;
     background-color: rgba(0,0,0,.5);
+    font
     color: #fff;
+}
+
+#custom-navbar-alt .navbar-brand {
+  font-size: 4rem;
+  color: #fff;
+}
+
+#custom-navbar-alt .nav-link {
+  font-size: 2rem;
+  color: #fff;
+  padding-left: 1em;
 }
