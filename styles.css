@@ -99,12 +99,14 @@ rect {
 #custom-navbar .navbar-brand {
     font-size: 4rem;
     color: #fff;
+    text-shadow: 0px 0px 20px #aaaaaa;
 }
 
 #custom-navbar .nav-link {
     font-size: 2rem;
     color: #fff;
     padding-left: 1em;
+    text-shadow: 0px 0px 20px #aaaaaa;
 }
 
 .carousel-item {
