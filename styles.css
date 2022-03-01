@@ -23,28 +23,15 @@ rect {
       margin: 0;
       padding: 0;
   }
-  /* Since positioning the image, we need to help out the caption */
+
   .carousel-caption {
 
     bottom: 3rem;
-    /* z-index: 1; */
+
   }
 
-  /* Declare heights because of positioning of img element */
-  /* .carousel-item {
-    height: 32rem;
-  }
-  .carousel-item > img {
-    position: relative;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    height: 32rem;
-  } */
 
 
-  /* MARKETING CONTENT
-  -------------------------------------------------- */
 
   /* Center align the text within the three columns below the carousel */
   .marketing .col-lg-4 {
@@ -153,8 +140,17 @@ rect {
   @media (min-width: 992px) {
       .carousel-inner .container {
         position: relative;
-        left: 200px;
+        margin-left: auto;
       }
+
+      .push-text-right-carousel {
+        left: 60%;
+        width: 30%;
+      }
+      /* .carousel-caption {
+        left: 75%;
+        width: 10em;
+      } */
   }
 
 
